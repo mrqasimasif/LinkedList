@@ -1,0 +1,1 @@
+This program deals with Linked List Data Structure with all definitions of class constructors and member functions.</br>Holds code for FILE Handling too.
