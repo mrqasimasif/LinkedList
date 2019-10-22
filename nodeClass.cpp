@@ -2,17 +2,19 @@
 
 #include<iostream>
 #include<fstream>
+#include<conio.h>
 using namespace std;
-
+//Class declaration and definition
 class cNode {
-    //data members
+    //carries the value of node
 	int data;
 public:
     //reference to nextNode of list
 	cNode *nextNode;
 
-    //Constructors
+    //Default Constructor 
 	cNode() { data = 0; nextNode = NULL; }
+    //Parameterized Constructor
 	cNode(int number) { data = number; nextNode = NULL; }
 
     //Constructors for File Handling
